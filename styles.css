@@ -35,3 +35,5 @@
 .project-card--wide{grid-column:1/-1;grid-template-columns:1fr 1fr;grid-template-rows:1fr}
 .project-card--wide>.project-art{min-height:260px;border-right:1px solid var(--line)}
 @media(max-width:670px){.dividend-brand{gap:16px}.dividend-brand svg{width:45px;height:55px}.dividend-brand span{font-size:18px}.dividend-brand strong{font-size:24px}.project-card--wide{grid-template-columns:1fr;grid-template-rows:180px 1fr}.project-card--wide>.project-art{min-height:0;border-right:0}}
+
+#dialog-stage{border-left:2px solid var(--accent);padding-left:14px}.dialog-inner li{padding:6px 0}.project-info>p{line-height:1.8}

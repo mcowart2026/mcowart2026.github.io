@@ -28,3 +28,7 @@ Open `index.html` in a modern browser, or serve this folder using a static HTTP 
 ## Source
 
 Prepared from the user-supplied `portfolio-site-mcowart2026.zip` on October 26, 2026. Removed draft publishing reminders, added public-site metadata and crawler files, and refined accessibility and small-screen presentation. Project descriptions and career claims originate in the supplied portfolio and are not independently credential-verified.
+
+## Description review
+
+Project summaries and detail panels were reviewed against available local source and documentation on October 26, 2026. Each panel explains purpose, capabilities, and current stage. Operational Intelligence Agents retains the supplied portfolio description of active business use; the unrelated local AI Command Center prototype was not treated as its implementation. Dark Helix now emphasizes the game-data coaching modules present in the source. Options King supports paper/live broker modes; its current use is paper trading and research, with real-money deployment conditional on strategy validation. This copy review did not re-run the underlying applications or certify their production readiness.
