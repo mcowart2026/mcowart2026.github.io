@@ -25,3 +25,13 @@
 .logo-helix img{position:absolute;top:-48.913%;left:0;width:100%;max-width:none;height:auto}
 .helix-caption{position:absolute;bottom:19px;left:22px;right:22px;font-size:9px;font-weight:700;letter-spacing:.14em;color:#c8b69a}
 @media(max-width:670px){.logo-helix{padding:14px}.helix-caption{left:14px;right:14px;bottom:15px;font-size:8px}}
+
+/* Pair the financial research projects and give Dark Helix a balanced final row. */
+.art-dividend{background:radial-gradient(ellipse at 80% 15%,#315449,#132528 75%)}
+.dividend-brand{display:flex;align-items:center;gap:22px;justify-content:center;flex:1;color:#d8e7c7}
+.dividend-brand svg{width:58px;height:70px;fill:none;stroke:#b8d3a4;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.dividend-brand span{font:500 23px/1.2 var(--display);letter-spacing:.16em}
+.dividend-brand strong{font-size:31px;font-weight:600;letter-spacing:.06em}
+.project-card--wide{grid-column:1/-1;grid-template-columns:1fr 1fr;grid-template-rows:1fr}
+.project-card--wide>.project-art{min-height:260px;border-right:1px solid var(--line)}
+@media(max-width:670px){.dividend-brand{gap:16px}.dividend-brand svg{width:45px;height:55px}.dividend-brand span{font-size:18px}.dividend-brand strong{font-size:24px}.project-card--wide{grid-template-columns:1fr;grid-template-rows:180px 1fr}.project-card--wide>.project-art{min-height:0;border-right:0}}
