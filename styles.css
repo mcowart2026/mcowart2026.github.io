@@ -18,3 +18,10 @@
 .armor-logo-frame{position:relative;width:min(460px,100%);aspect-ratio:488/165;overflow:hidden}
 .logo-armor img{position:absolute;top:-14%;left:0;width:100%;max-width:none}
 @media(max-width:670px){.project-logo{padding:14px}.logo-fractal{padding:0}.logo-fractal img{width:320px}.logo-athlete{padding:0}.logo-athlete img{width:360px}.logo-options img{width:260px}.logo-armor{padding:14px}}
+
+/* Frame the supplied Dark Helix banner above the Discord avatar and controls. */
+.logo-helix{background:radial-gradient(ellipse at 20% 55%,#291713,#111719 72%);padding:22px;position:relative}
+.helix-banner-frame{position:relative;width:100%;aspect-ratio:588/92;overflow:hidden}
+.logo-helix img{position:absolute;top:-48.913%;left:0;width:100%;max-width:none;height:auto}
+.helix-caption{position:absolute;bottom:19px;left:22px;right:22px;font-size:9px;font-weight:700;letter-spacing:.14em;color:#c8b69a}
+@media(max-width:670px){.logo-helix{padding:14px}.helix-caption{left:14px;right:14px;bottom:15px;font-size:8px}}
