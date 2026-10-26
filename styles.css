@@ -4,3 +4,17 @@
 /* Portfolio polish and accessible small-screen behavior. */
 .filter-status{font-size:12px;color:var(--muted);margin:0 0 18px}.brand-mark{letter-spacing:-.08em;font-size:20px}.brand-caption{line-height:1.7}.hero-copy,.about-text{min-width:0}.dialog-inner{overflow-wrap:anywhere}body:has(dialog[open]){overflow:hidden}
 @media(max-width:380px){.hero h1{font-size:35px}.eyebrow{font-size:10px;letter-spacing:.1em}.project-meta{gap:8px}.athlete-orbit strong{width:115px;height:115px}.nav nav{gap:12px}.dialog-inner{padding:32px 24px}}
+
+/* Supplied project branding. Preserve complete marks and their original colors. */
+.project-logo{padding:20px;align-items:center;justify-content:center}
+.project-logo img{display:block;max-width:100%;height:auto;object-fit:contain}
+.logo-fractal{background:#101328;padding:0}
+.logo-fractal img{width:390px;max-width:100%;flex-shrink:0}
+.logo-athlete{background:#f2f2f0;padding:0}
+.logo-athlete img{width:440px;max-height:none;flex-shrink:0}
+.logo-options{background:#0c1014}
+.logo-options img{width:300px;image-rendering:auto}
+.logo-armor{background:#050b0e;padding:20px}
+.armor-logo-frame{position:relative;width:min(460px,100%);aspect-ratio:488/165;overflow:hidden}
+.logo-armor img{position:absolute;top:-14%;left:0;width:100%;max-width:none}
+@media(max-width:670px){.project-logo{padding:14px}.logo-fractal{padding:0}.logo-fractal img{width:320px}.logo-athlete{padding:0}.logo-athlete img{width:360px}.logo-options img{width:260px}.logo-armor{padding:14px}}

@@ -4,7 +4,7 @@ Public portfolio for `mcowart2026`, published at **https://mcowart2026.github.io
 
 ## Contents
 
-A responsive static site presenting six selected projects, professional background, approach, and a GitHub contact link. Project cards use abstract CSS illustrations rather than screenshots. Ultra Hybrid Athlete and Armor OS are distinct projects. Ultra Hybrid Athlete is labeled as in development with limited beta testing.
+A responsive static site presenting six selected projects, professional background, approach, and a GitHub contact link. Project cards combine supplied brand logos with abstract CSS illustrations. The Armor OS logo reference is framed in CSS to show its primary logo, without the editor controls or alternate lockups. Dark Helix is the gaming and computer-vision project. Ultra Hybrid Athlete and Armor OS are distinct projects. Ultra Hybrid Athlete is labeled as in development with limited beta testing.
 
 No application source from private projects, private data, API credentials, contact email, or analytics are included. Google Fonts is the only external design dependency; local system fonts are used if it is unavailable. Links to private source repositories are not required to view the portfolio.
 
@@ -15,6 +15,7 @@ GitHub Pages serves `main` from the repository root. `.nojekyll` keeps this a pl
 - `index.html`: public content and metadata
 - `styles.css`: responsive layout and illustrations
 - `script.js`: project filters, accessible status updates and project dialogs
+- `assets/`: supplied Fractal, Ultra Hybrid Athlete, Options King, and Armor OS brand references
 - `favicon.svg`: portfolio icon
 - `robots.txt` and `sitemap.xml`: crawler configuration
 
